@@ -8,10 +8,10 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <Header />
       <Routes>
-        <Route path="/Portfolio/" element={<Home />} /> {/* Página inicial */}
+        <Route path="/" element={<Home />} /> {/* Página inicial */}
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
