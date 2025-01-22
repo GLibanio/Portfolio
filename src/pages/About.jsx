@@ -47,13 +47,14 @@ const pageStyle = {
   padding: '20px',
   textAlign: 'center',
   fontFamily: 'Arial, sans-serif',
-  backgroundColor: '#f4f4f4',
+  backgroundColor: '#222',
   minHeight: '100vh',
 };
 
 const headingStyle = {
   fontSize: '32px',
   marginBottom: '20px',
+  color: "#fff",
 };
 
 const desktopContentStyle = {
@@ -94,7 +95,7 @@ const textStyle = {
   fontSize: '16px',
   lineHeight: '1.6',
   textAlign: 'justify',
-  color: '#333',
+  color: "#fff",
   padding: '0 10px',
   maxWidth: '600px',
 };

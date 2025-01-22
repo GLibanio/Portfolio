@@ -1,27 +1,32 @@
 import React from "react";
 import styled from "styled-components";
 
-// Dados dos projetos (em português)
 const projects = [
   {
     title: "Chatbot",
-    details: "Um chatbot inteligente que interage com os usuários e fornece suporte automatizado.",
+    details: "Um chatbot inteligente para ajudar a praticar conversação em inglês.",
   },
   {
     title: "Agendamento Online",
-    details: "Sistema de agendamento para diversos serviços, com interface intuitiva.",
+    details: "Sistema de agendamento online com interface prática e funcional.",
   },
   {
     title: "Ajuda Universitária",
-    details: "Plataforma focada em suporte emocional e orientação para alunos universitários.",
+    details: "Plataforma de apoio emocional para estudantes, com suporte psicológico e conteúdos educativos.",
   },
   {
     title: "Rogue Survivalist",
-    details: "Jogo de sobrevivência e estratégia lançado na Steam, criado com paixão.",
+    details: (
+      <>
+        Jogo de sobrevivência e estratégia criado na Unity e lançado na Steam.{" "}
+        <a href="https://store.steampowered.com/app/2664260/Rogue_Survivalist/" target="_blank" rel="noopener noreferrer">
+          Acesse aqui!
+        </a>
+      </>
+    ),
   },
 ];
 
-// Estilos com styled-components
 const Container = styled.div`
   font-family: Arial, sans-serif;
   background-color: #222;
@@ -120,6 +125,15 @@ const ProjectDetails = styled.p`
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: #ff7f50;
   }
 `;
 

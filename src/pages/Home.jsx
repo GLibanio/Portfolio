@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaCode, FaMobileAlt, FaPalette, FaPlug, FaServer, FaTools } from 'react-icons/fa'; // Ícones
-import GuilhermeImage from '../assets/Guilherme.png'; // Foto do Guilherme
-import CV from '../assets/curriculo.pdf'; // Currículo PDF
+import { FaCode, FaMobileAlt, FaPalette, FaPlug, FaServer, FaTools } from 'react-icons/fa'; 
+import GuilhermeImage from '../assets/Guilherme.png'; 
+import CV from '../assets/curriculo.pdf'; 
 
 const Home = () => {
   return (

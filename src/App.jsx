@@ -5,18 +5,23 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import GlobalStyle from './styles/GlobalStyle';
 
 function App() {
   return (
-    <Router basename="/Portfolio">
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} /> {/* Página inicial */}
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+    <>
+      {/* Adiciona os estilos globais */}
+      <GlobalStyle />
+      <Router basename="/Portfolio">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} /> {/* Página inicial */}
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 

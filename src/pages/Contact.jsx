@@ -58,19 +58,20 @@ const pageStyle = {
   padding: '20px',
   textAlign: 'center',
   fontFamily: 'Arial, sans-serif',
-  backgroundColor: '#f4f4f4',
+  backgroundColor: '#222',
   minHeight: '100vh',
 };
 
 const headingStyle = {
   fontSize: '32px',
   marginBottom: '20px',
+  color: "#fff",
 };
 
 const textStyle = {
   fontSize: '18px',
   lineHeight: '1.6',
-  color: '#333',
+  color: "#fff",
   marginBottom: '30px',
 };
 
